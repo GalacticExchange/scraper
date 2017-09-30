@@ -1,0 +1,18 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Scraper</title>
+
+    <link rel="stylesheet" href="/dist/bundle.css">
+    <script th:inline="javascript">
+        window.scrapArchConf = /*[[${scrapArchConf}]]*/ null;
+        window.scrapConf = /*[[${scrapConf}]]*/ null;
+    </script>
+    <script src="/dist/bundle.js"></script>
+</head>
+<body ng-app="myApp">
+<div ui-view="ng-admin"></div>
+</body>
+</html>

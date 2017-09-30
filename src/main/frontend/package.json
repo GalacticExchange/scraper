@@ -1,0 +1,31 @@
+{
+  "name": "scraper",
+  "version": "0.1.0",
+  "description": "Scraper",
+  "scripts": {
+    "start": "NODE_ENV=development node server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "ng-admin": "1.0.6",
+    "moment": "2.18.1"
+  },
+  "devDependencies": {
+    "css-loader": "0.28.4",
+    "extract-text-webpack-plugin": "3.0.0",
+    "file-loader": "0.11.2",
+    "node-sass": "4.5.3",
+    "sass-loader": "6.0.6",
+    "uglifyjs-webpack-plugin": "0.4.6",
+    "url-loader": "0.5.9",
+    "html-loader": "0.5.1",
+    "webpack": "3.5.4",
+    "express": "4.15.4",
+    "http-proxy": "1.16.2",
+    "morgan": "1.8.2",
+    "webpack-dev-middleware": "1.12.0",
+    "webpack-hot-middleware": "2.18.2",
+    "copy-webpack-plugin": "4.0.1",
+    "fs-extra": "4.0.1"
+  }
+}
